@@ -1,6 +1,6 @@
 /* =================================
 ------------------------------------
-  Game Warrior Template
+  Eillene Keith
   Version: 1.0
  ------------------------------------ 
  ====================================*/
@@ -259,6 +259,13 @@ ol {
 	display: inline-block;
 	float: left;
 	padding-top: 6px;
+	width: 175px;
+}
+
+.site-logo img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
 .user-panel {
@@ -314,9 +321,11 @@ ol {
 ---------------------*/
 
 .hero-slider .hs-item {
-	height: 865px;
+	/* height: 865px; */
+	height: calc(100vh - 79px);
 	display: table;
 	width: 100%;
+	background-color: #252525;
 }
 
 .hero-slider .hs-text {
@@ -461,6 +470,7 @@ ol {
 
 .news-ticker-contant .nt-item span.strategy {
 	background: #4eae60;
+	color: #000;
 }
 
 .news-ticker-contant .nt-item span.racing {
